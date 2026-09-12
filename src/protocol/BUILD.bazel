@@ -1,0 +1,12 @@
+cc_library(
+    name = "protocol",
+    srcs = [
+        "Decoder.C",
+    ],
+    hdrs = [
+        "Decoder.H",
+        "Messages.H",
+        "Types.H",
+    ],
+    visibility = ["//visibility:public"],
+)

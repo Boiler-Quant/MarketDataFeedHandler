@@ -1,0 +1,4 @@
+module(
+    name = "market_data_feed_handler",
+    version = "0.1.0",
+)

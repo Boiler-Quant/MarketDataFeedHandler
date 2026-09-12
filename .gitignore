@@ -1,0 +1,33 @@
+# Bazel
+
+bazel-*
+.bazelrc.user
+compile_commands.json
+
+# C / C++ Build Artifacts
+*.o
+*.obj
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*.DS_Store
+
+# secrets/local configs
+.env
+.env.*
+!.env.example
+
+# temporary files
+*.log
+tmp/
+temp/
+
+
